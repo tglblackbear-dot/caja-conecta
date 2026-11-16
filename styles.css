@@ -414,3 +414,52 @@ h1, h2, h3 { font-family: var(--font-display); }
   .region-photo figcaption, .region-photo figcaption a { font-size: 12px; }
   .category-tag, .fiction-tag { font-size: 10px; }
 }
+
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .header-cta { font-size: 14px; }
+  .eyebrow { font-size: 12px; }
+  .hero-description, .region-intro > p:not(.eyebrow), .announce-copy,
+  .dialog-description, .merchant-intro, [data-auth-panel] > p:not(.merchant-switch) {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .hero-link { font-size: 15px; }
+  .photo-credit { font-size: 13px; }
+  .photo-credit a { font-size: 12px; }
+  .art-caption { font-size: 12px; }
+  .hero-stats strong { font-size: 13px; }
+  .hero-stats small { max-width: 110px; font-size: 12px; }
+  .map-link { font-size: 15px; }
+  .locality-list span { font-size: 14px; }
+  .region-map figcaption, .region-photo figcaption { font-size: 14px; }
+  .region-photo figcaption a, .gallery-credit { font-size: 13px; }
+  .section-subtitle { font-size: 16px; }
+  .demo-badge { font-size: 14px; }
+  .search-input-wrap input, .select-wrap select { font-size: 16px; }
+  .search-button { font-size: 16px; }
+  .category-picker-heading h3, .listings-heading h3 { font-size: 22px; }
+  .category-picker-heading > span { font-size: 15px; }
+  .category-button-label { font-size: 18px; }
+  .category-button-description { font-size: 14px; }
+  .listings-heading p { font-size: 14px; }
+  .clear-filters, .outline-button { font-size: 15px; }
+  .demo-notice { font-size: 15px; }
+  .loading-state { font-size: 16px; }
+  .category-tag, .fiction-tag { font-size: 12px; }
+  .card-content h4 { font-size: 17px; }
+  .card-business, .card-location { font-size: 14px; }
+  .details-button { font-size: 15px; }
+  .empty-state h3 { font-size: 21px; }
+  .empty-state p, .error-state p { font-size: 15px; }
+  .community-banner .eyebrow { font-size: 12px; }
+  .community-banner p:last-child { font-size: 15px; }
+  .site-footer > p, .footer-note { font-size: 12px; }
+  .dialog-category { font-size: 13px; }
+  .dialog-business, .dialog-location { font-size: 15px; }
+  .dialog-demo, .whatsapp-unavailable { font-size: 14px; }
+  .whatsapp-button, .announce-explore { font-size: 16px; }
+  .merchant-form label, .merchant-switch, .merchant-feedback { font-size: 15px; }
+  .merchant-profile dt, .merchant-profile dd { font-size: 15px; }
+  .supabase-connection > p { font-size: 14px; }
+}
