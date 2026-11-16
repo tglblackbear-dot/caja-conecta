@@ -1,0 +1,19 @@
+{
+  "name": "Cajá Conecta",
+  "short_name": "Cajá Conecta",
+  "description": "Quem é daqui, encontra aqui.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f2e9",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "./assets/caja.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

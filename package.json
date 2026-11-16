@@ -1,0 +1,14 @@
+{
+  "name": "caja-conecta",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "test:supabase": "node scripts/check-supabase.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

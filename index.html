@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#15803d">
+    <meta name="description" content="Encontre serviços, sabores e negócios de Cajazeiras e regiões adjacentes. Quem é daqui, encontra aqui.">
+    <title>Cajá Conecta — Quem é daqui, encontra aqui</title>
+    <link rel="icon" href="./assets/caja.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js/runtime-config.js"></script>
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="Cajá Conecta, página inicial">
+          <img src="./assets/caja.svg" width="42" height="42" alt="">
+          <span class="brand-copy"><strong>Cajá<span>Conecta</span></strong><small>O que é daqui, pertinho de você.</small></span>
+        </a>
+        <nav class="top-nav" aria-label="Navegação principal">
+          <a href="#anuncios">Explorar</a>
+          <a href="#regiao">Nossa região</a>
+        </nav>
+        <button class="header-cta" id="merchant-account-button" type="button" aria-label="Área do comerciante">Entrar</button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Feito para a nossa região</p>
+            <h1 id="hero-title">Quem é daqui,<br><span>encontra aqui.</span></h1>
+            <p class="hero-description">Serviços, sabores e boas ideias de Cajazeiras e regiões adjacentes, todos pertinho de você.</p>
+            <div class="hero-actions" aria-label="O que você quer fazer?">
+              <button class="hero-action hero-action-primary" id="announce-button" type="button" aria-haspopup="dialog">
+                <span aria-hidden="true">✳</span> Anuncie
+              </button>
+              <a class="hero-action hero-action-secondary" href="#anuncios">
+                <span aria-hidden="true">⌕</span> Ou contrate
+              </a>
+            </div>
+            <a class="hero-link" href="#anuncios">Descubra o que tem por perto <span aria-hidden="true">↓</span></a>
+          </div>
+          <figure class="hero-art hero-photo">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cajazeiras_X_-_01.jpg/1280px-Cajazeiras_X_-_01.jpg" alt="Vista do Mercado Municipal de Cajazeiras, em Cajazeiras X, Salvador." fetchpriority="high">
+            <figcaption class="photo-credit"><span>Mercado Municipal de Cajazeiras · 2019</span><a href="https://commons.wikimedia.org/wiki/File:Cajazeiras_X_-_01.jpg" target="_blank" rel="noopener noreferrer">Foto: Ajmcbarreto · CC BY-SA 4.0</a></figcaption>
+          </figure>
+          <div class="hero-stats" aria-label="Informações do projeto">
+            <div><span class="stat-icon">⌖</span><span><strong>Bem pertinho</strong><small>da nossa comunidade</small></span></div>
+            <div><span class="stat-icon">♡</span><span><strong>Feito com carinho</strong><small>para quem vive aqui</small></span></div>
+            <div><span class="stat-icon">✳</span><span><strong>Negócios locais</strong><small>merecem ser encontrados</small></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="region-section" id="regiao" aria-labelledby="region-title">
+        <div class="region-intro">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Nosso pedaço de Salvador</p>
+          <h2 id="region-title">Cajazeiras e regiões adjacentes, <span>pertinho no mapa.</span></h2>
+          <p>Uma região cheia de histórias, caminhos e gente que faz acontecer. Explore as localidades atendidas pelo Cajá Conecta.</p>
+          <a class="map-link" href="https://www.openstreetmap.org/?mlat=-12.899938&mlon=-38.408157#map=13/-12.899938/-38.408157" target="_blank" rel="noopener noreferrer">Abrir mapa completo <span aria-hidden="true">↗</span></a>
+          <div class="locality-list" aria-label="Localidades atendidas">
+            <span>Cajazeiras II, IV, V, VI, VII, VIII, X e XI</span>
+            <span>Fazendas Grandes I, II, III e IV</span>
+            <span>Águas Claras · Boca da Mata · Palestina</span>
+          </div>
+        </div>
+        <figure class="region-map">
+          <iframe
+            title="Mapa colaborativo do OpenStreetMap com a localização geral de Cajazeiras e bairros vizinhos, em Salvador"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-38.46%2C-12.93%2C-38.37%2C-12.86&layer=mapnik&marker=-12.899938%2C-38.408157"
+            loading="lazy"
+            referrerpolicy="no-referrer">
+          </iframe>
+          <figcaption>Mapa colaborativo © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>. Visão geral da região; os limites são aproximados.</figcaption>
+        </figure>
+        <div class="region-gallery" aria-label="Fotografias de Cajazeiras X">
+          <figure class="region-photo">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cajazeiras_X_-_10.jpg/1280px-Cajazeiras_X_-_10.jpg" alt="Rotatória da feirinha de Cajazeiras X, em Salvador." loading="lazy">
+            <figcaption><span>Rótula da Feirinha · Cajazeiras X</span><a href="https://commons.wikimedia.org/wiki/File:Cajazeiras_X_-_10.jpg" target="_blank" rel="noopener noreferrer">Ajmcbarreto · CC BY-SA 4.0</a></figcaption>
+          </figure>
+          <figure class="region-photo">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cajazeiras_X_-_07.jpg/1280px-Cajazeiras_X_-_07.jpg" alt="Agência da Caixa Econômica em Cajazeiras, Salvador." loading="lazy">
+            <figcaption><span>Comércio local · Cajazeiras X</span><a href="https://commons.wikimedia.org/wiki/File:Cajazeiras_X_-_07.jpg" target="_blank" rel="noopener noreferrer">Ajmcbarreto · CC BY-SA 4.0</a></figcaption>
+          </figure>
+          <p class="gallery-credit">Fotografias de Ajmcbarreto, feitas em 2019 e compartilhadas no <a href="https://commons.wikimedia.org/wiki/Category:Cajazeiras,_Salvador" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> sob licença <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.</p>
+        </div>
+      </section>
+
+      <section class="explore-section" id="anuncios" aria-labelledby="explore-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">Explore a região</p>
+            <h2 id="explore-title">O que você está procurando?</h2>
+            <p class="section-subtitle">Encontre pessoas e negócios da nossa comunidade.</p>
+          </div>
+          <span class="demo-badge"><span aria-hidden="true">✳</span> Modo demonstração</span>
+        </div>
+
+        <form class="search-panel" id="search-form" role="search">
+          <label class="search-input-wrap">
+            <span class="sr-only">Buscar por serviço, produto ou palavra-chave</span>
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="search-input" name="q" type="search" placeholder="Ex.: bolo, encanador, manicure..." autocomplete="off">
+          </label>
+          <label class="select-wrap">
+            <span class="sr-only">Filtrar por localidade</span>
+            <select id="location-filter" name="location"><option value="">Todas as localidades</option></select>
+            <span class="select-chevron" aria-hidden="true">⌄</span>
+          </label>
+          <button class="search-button" type="submit"><span aria-hidden="true">⌕</span> Buscar</button>
+        </form>
+
+        <div class="category-picker">
+          <div class="category-picker-heading">
+            <h3>Escolha uma categoria</h3>
+            <span>Encontre o que precisa</span>
+          </div>
+          <div class="category-grid" id="category-grid" role="group" aria-label="Filtrar anúncios por categoria"></div>
+        </div>
+
+        <div class="listings-heading">
+          <div><h3>Anúncios para explorar</h3><p id="results-count" aria-live="polite"></p></div>
+          <button class="clear-filters" id="clear-filters" type="button" hidden>Limpar filtros <span aria-hidden="true">×</span></button>
+        </div>
+        <p class="demo-notice"><span aria-hidden="true">ⓘ</span> Você está vendo exemplos fictícios. Eles não representam negócios reais.</p>
+        <div class="loading-state" id="loading-state" role="status">Carregando anúncios…</div>
+        <div class="listing-grid" id="listing-grid" aria-live="polite" aria-busy="true"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span class="empty-illustration" aria-hidden="true">⌕</span>
+          <h3>Nenhum anúncio por aqui</h3>
+          <p>Tente mudar a busca ou escolher outra categoria ou localidade.</p>
+          <button class="outline-button" type="button" id="empty-clear">Limpar filtros</button>
+        </div>
+        <div class="error-state" id="error-state" hidden role="alert">
+          <span aria-hidden="true">!</span><p>Não foi possível carregar os anúncios agora.</p>
+          <button class="outline-button" type="button" id="retry-load">Tentar novamente</button>
+        </div>
+      </section>
+
+      <section class="community-banner" id="sobre" aria-labelledby="community-title">
+        <div class="community-mark" aria-hidden="true"><img src="./assets/caja.svg" alt=""></div>
+        <div><p class="eyebrow">Nossa comunidade, mais conectada</p><h2 id="community-title">O talento da nossa região<br>merece ser encontrado.</h2><p>Um espaço para aproximar quem oferece e quem procura, valorizando o que é feito aqui.</p></div>
+        <span class="banner-leaf" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="./"><img src="./assets/caja.svg" width="34" height="34" alt=""><span class="brand-copy"><strong>Cajá<span>Conecta</span></strong><small>Quem é daqui, encontra aqui.</small></span></a>
+      <p>Feito para Cajazeiras e regiões adjacentes.</p>
+      <span class="footer-note">Uma iniciativa da comunidade <span aria-hidden="true">♡</span></span>
+    </footer>
+
+    <dialog class="listing-dialog" id="listing-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Fechar detalhes">×</button>
+      <div class="dialog-icon" id="dialog-icon" aria-hidden="true"></div>
+      <p class="eyebrow dialog-category" id="dialog-category"></p>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-business" id="dialog-business"></p>
+      <p class="dialog-description" id="dialog-description"></p>
+      <div class="dialog-location"><span aria-hidden="true">⌖</span><span id="dialog-location"></span></div>
+      <p class="dialog-demo"><span aria-hidden="true">ⓘ</span> Anúncio de demonstração — exemplo fictício.</p>
+      <a class="whatsapp-button" id="dialog-whatsapp" href="#" target="_blank" rel="noopener noreferrer" hidden><span aria-hidden="true">◉</span> Conversar pelo WhatsApp</a>
+      <p class="whatsapp-unavailable" id="whatsapp-unavailable">Contato indisponível neste exemplo.</p>
+    </dialog>
+
+    <dialog class="listing-dialog merchant-dialog" id="merchant-dialog" aria-labelledby="merchant-dialog-title">
+      <button class="dialog-close" id="merchant-dialog-close" type="button" aria-label="Fechar">×</button>
+      <div class="announce-icon" aria-hidden="true">✳</div>
+      <p class="eyebrow">Cajá Conecta · Área do comerciante</p>
+      <h2 id="merchant-dialog-title">Seu negócio mais perto da comunidade</h2>
+      <p class="merchant-intro">Crie sua conta para cadastrar seu negócio. Cadastros novos aguardam análise antes de qualquer publicação.</p>
+      <p class="merchant-feedback" id="merchant-feedback" role="status" aria-live="polite" hidden></p>
+
+      <section data-auth-panel="signup">
+        <h3>Criar conta de comerciante</h3>
+        <form class="merchant-form" id="merchant-signup-form">
+          <label>Seu nome completo
+            <input name="full_name" type="text" autocomplete="name" minlength="2" maxlength="100" required>
+          </label>
+          <label>Nome do negócio
+            <input name="business_name" type="text" autocomplete="organization" minlength="2" maxlength="100" required>
+          </label>
+          <label>E-mail
+            <input name="email" type="email" autocomplete="email" maxlength="254" required>
+          </label>
+          <label>Telefone
+            <input name="phone" type="tel" autocomplete="tel" minlength="8" maxlength="20" placeholder="(71) 99999-9999" required>
+          </label>
+          <label>Categoria
+            <select id="merchant-category" name="category" required>
+              <option value="">Escolha uma categoria</option>
+            </select>
+          </label>
+          <label>Localidade
+            <select id="merchant-neighborhood" name="neighborhood" required>
+              <option value="">Escolha uma localidade</option>
+            </select>
+          </label>
+          <label>WhatsApp para clientes <span>(opcional)</span>
+            <input name="whatsapp" type="tel" autocomplete="tel" maxlength="20" placeholder="(71) 99999-9999">
+          </label>
+          <label class="merchant-form-wide">Sobre o negócio <span>(opcional)</span>
+            <textarea name="description" rows="3" maxlength="500" placeholder="Conte brevemente o que você oferece."></textarea>
+          </label>
+          <label>Senha
+            <input name="password" type="password" autocomplete="new-password" minlength="8" required>
+          </label>
+          <label>Confirme a senha
+            <input name="password_confirmation" type="password" autocomplete="new-password" minlength="8" required>
+          </label>
+          <button class="merchant-submit merchant-form-wide" type="submit">Criar minha conta</button>
+        </form>
+        <p class="merchant-switch">Já tem conta? <button type="button" data-show-panel="login">Entrar</button></p>
+      </section>
+
+      <section data-auth-panel="login" hidden>
+        <h3>Entrar na sua conta</h3>
+        <form class="merchant-form merchant-form-single" id="merchant-login-form">
+          <label>E-mail
+            <input id="login-email" name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>Senha
+            <input name="password" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="merchant-submit" type="submit">Entrar</button>
+        </form>
+        <p class="merchant-switch"><button type="button" data-show-panel="reset-request">Esqueci minha senha</button></p>
+        <p class="merchant-switch">Ainda não tem conta? <button type="button" data-show-panel="signup">Cadastre-se</button></p>
+      </section>
+
+      <section data-auth-panel="reset-request" hidden>
+        <h3>Recuperar senha</h3>
+        <p>Informe o e-mail do cadastro. Enviaremos um link para definir outra senha.</p>
+        <form class="merchant-form merchant-form-single" id="merchant-reset-request-form">
+          <label>E-mail
+            <input id="reset-request-email" name="email" type="email" autocomplete="email" required>
+          </label>
+          <button class="merchant-submit" type="submit">Enviar link de recuperação</button>
+        </form>
+        <p class="merchant-switch"><button type="button" data-show-panel="login">Voltar para entrar</button></p>
+      </section>
+
+      <section data-auth-panel="new-password" hidden>
+        <h3>Definir nova senha</h3>
+        <form class="merchant-form merchant-form-single" id="merchant-new-password-form">
+          <label>Nova senha
+            <input name="password" type="password" autocomplete="new-password" minlength="8" required>
+          </label>
+          <label>Confirme a nova senha
+            <input name="password_confirmation" type="password" autocomplete="new-password" minlength="8" required>
+          </label>
+          <button class="merchant-submit" type="submit">Salvar nova senha</button>
+        </form>
+      </section>
+
+      <section data-auth-panel="profile" hidden>
+        <h3>Seu cadastro</h3>
+        <dl class="merchant-profile">
+          <div><dt>Responsável</dt><dd id="merchant-profile-name"></dd></div>
+          <div><dt>Negócio</dt><dd id="merchant-profile-business"></dd></div>
+          <div><dt>E-mail</dt><dd id="merchant-profile-email"></dd></div>
+          <div><dt>Categoria</dt><dd id="merchant-profile-category"></dd></div>
+          <div><dt>Localidade</dt><dd id="merchant-profile-neighborhood"></dd></div>
+          <div><dt>Status</dt><dd id="merchant-profile-status"></dd></div>
+        </dl>
+        <p class="merchant-intro">O cadastro não publica anúncios automaticamente. A aprovação é feita pela equipe responsável.</p>
+        <button class="merchant-secondary" id="merchant-signout" type="button">Sair da conta</button>
+      </section>
+
+      <div class="supabase-connection">
+        <button class="merchant-secondary" id="test-supabase-connection" type="button">Testar conexão com Supabase</button>
+        <p id="supabase-test-result" role="status" aria-live="polite"></p>
+      </div>
+    </dialog>
+
+    <noscript><p class="noscript-message">Ative o JavaScript para explorar os anúncios.</p></noscript>
+  </body>
+</html>
