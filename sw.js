@@ -1,4 +1,4 @@
-const CACHE_NAME = "caja-conecta-static-v13";
+const CACHE_NAME = "caja-conecta-static-v14";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
